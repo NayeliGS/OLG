@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    box-sizing: content-box;
+    width: 100%;
+  
+  }
+  
+  .navBar {
+    background-color: #f48416;
+    width: 100%;
+    display: flex;
+    color: #FFFFFF;
+    font-size: larger;
+    align-items: center;
+
+    .navLogo{
+        width: 6%;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .navCatalogo{
+        width: 45%;
+        background-color: blue;
+        display: flex;
+        justify-content: end;
+        
+     }
+
+     .navWe{
+        width: 40%;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: end;
+        
+     }
+
+     .navContact{
+        width: 7%;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: end;
+        
+     }
+  }
+
+.imagePrincipal{
+    width: 100%;
+    height: 716px;
+    background-image: url("./img/Portada3.png");
+    background-size: cover;
+}
+
+.catalogo{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .Single{
+        width: 190px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 18px;
+        font-size: larger;
+        font-weight: 400;
+        background-color: brown;
+    }
+
+    .Single:hover {
+        background: rgb(244,132,22);
+        background: linear-gradient(297deg, rgba(244,132,22,1) 24%, rgba(8,40,74,1) 64%);
+        border-color:black;
+        border: 3px solid black;
+        color: #FFFFFF;
+        cursor: pointer;
+       
+
+      }
+
+    .High{
+        width: 190px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 18px;
+        font-size: larger;
+        font-weight: 400;
+        background-color: rgb(165, 42, 136);
+    }
+
+    .High:hover {
+        background: rgb(244,132,22);
+        background: linear-gradient(297deg, rgba(244,132,22,1) 24%, rgba(8,40,74,1) 64%);
+        border-color:black;
+        border: 3px solid black;
+        color: #FFFFFF;
+        cursor: pointer;
+       
+
+      }
+
+    .New{
+        width: 190px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 18px;
+        font-size: larger;
+        font-weight: 400;
+        background-color: rgb(71, 165, 42);
+
+    }
+
+    .New:hover {
+        background: rgb(244,132,22);
+        background: linear-gradient(297deg, rgba(244,132,22,1) 24%, rgba(8,40,74,1) 64%);
+        border-color:black;
+        border: 3px solid black;
+        color: #FFFFFF;
+        cursor: pointer;
+    
+      }
+
+    .AG{
+        width: 190px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 18px;
+        font-size: larger;
+        font-weight: 400;
+        background-color: rgb(79, 42, 165);
+
+    }
+
+    .AG:hover {
+        background: rgb(244,132,22);
+        background: linear-gradient(297deg, rgba(244,132,22,1) 24%, rgba(8,40,74,1) 64%);
+        border-color:black;
+        border: 3px solid black;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+  
+    
+}
+
+.weAre{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(22, 205, 144);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.imagenWeare{
+    width: 30%;
+    height: 40%;
+    background-color: rgb(125, 125, 125);
+}
+
+.TextWeare{
+    width: 30%;
+    height: 40%;
+   
+}
+
+
+footer{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: darkcyan;
+
+    .footerImagen{
+        width: 30%;
+        height:40%;
+        background-color: rgb(125, 125, 125);
+
+    }
+
+    .listadoFooter{
+        width: 30%;
+        height:40%;
+        background-color: blueviolet;
+        margin-bottom: 60px;
+
+        .listadoF{
+            background-color: beige;
+            width: 340px;
+            margin-top: 14px;
+        }
+
+        .Listado1{
+            display: flex;
+            justify-content: space-around;
+            margin-left: 17px;
+
+            .textoList11{
+                margin-right: 30px;
+            }
+            
+        }
+        .Listado2{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 16px;
+            margin-left: 26px;
+        }
+        .Listado3{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 16px;
+            margin-left: 34px;
+        }
+
+    }
+    
+
+}
+
+
+
+
+
+.navArticle {
+    background-color: #08284A;
+    width: 100%;
+    display: flex;
+    color: #FFFFFF;
+    font-size: larger;
+    align-items: center;
+
+    .navLogo{
+        width: 6%;
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .navCatalogo{
+        width: 45%;
+        display: flex;
+        justify-content: end;
+        
+     }
+
+     .navWe{
+        width: 40%;
+        display: flex;
+        justify-content: end;
+        
+     }
+
+     .navContact{
+        width: 7%;
+        background-color: cadetblue;
+        display: flex;
+        justify-content: end;
+        
+     }
+  }
+
+  /* .imageArticle{
+    background-color: #f48416;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+  }
+
+  .textArticle{
+    position: absolute;
+    top: 10px;
+    color: #FFFFFF;
+    font-size: xx-large;
+  }
+
+  .imagen2{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    
+    
+
+  } */
+
+  .imageArticle{
+
+    .singleHex{
+        position: relative;
+        bottom:360px;
+        left: 200px;
+    }
+
+    .singlePerro{
+        position: relative;
+        bottom:870px;
+        left: 920px;
+        
+    }
+
+   
+    
+     
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
